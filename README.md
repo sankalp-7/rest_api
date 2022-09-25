@@ -15,3 +15,4 @@ UPDATE
 ![Screenshot (40)](https://user-images.githubusercontent.com/104098061/192165747-fe2e6282-f831-4e85-9a57-e0732818c76a.png)
 DELETE
 ![Screenshot (41)](https://user-images.githubusercontent.com/104098061/192165752-f0b58cde-6551-4a36-8550-82fc95834aa1.png)
+![Screenshot (42)](https://user-images.githubusercontent.com/104098061/192165796-f226da68-d4f0-4374-a92a-6234b98e2f84.png)
