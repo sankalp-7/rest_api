@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th scope="col"><span style="color:#198754 ;">#</span></th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for student in obj %}
+          <tr>
+            <th scope="row">{{student.id}}</th>
+            <td>{{student.username}}</td>
+            <td>{{student.email}}</td>
+            <td><a href="/delete/{{student.id}}"><button class="btn btn-danger">Delete</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="/update/{{student.id}}"><button class="btn btn-success">Edit</button></td></a>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      <p>type api/ for making crud operations through api</p>
+      <p>or click this <a href="/api/">link</a></p>
+</body>
+</html>
